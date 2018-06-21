@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background: url("assets/textures/aboutUs/background.png");
+    font-family: Calibri, sans-serif;
+}
+
+#topText {
+    color: #e2e0c1;
+    font-size: 14pt;
+    max-width: 517px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#bottomText {
+    color: #bd96cd;
+    font-size: 14pt;
+    max-width: 517px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.learnMoreButton {
+    background: transparent url("assets/textures/aboutUs/learnMoreButton.png");
+    color: white;
+    font-size: 24pt;
+    width: 241px;
+    height: 60px;
+    border: none;
+    margin-left: 70px;
+}
+
+.footer{
+    background-image: url("assets/textures/aboutUs/footerBackground.png");
+    margin: 0;
+}
+
+.footer p {
+    color: white;
+    font-size: 11pt;
+}

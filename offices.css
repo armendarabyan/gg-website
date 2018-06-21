@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background: url("assets/textures/offices/background.png");
+    font-family: Calibri, sans-serif;
+}
+
+.office ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.officeMap {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.line{
+    width: auto;
+    height: 2px;
+    border-bottom: 2px solid;
+    border-color: #543f5f;
+}

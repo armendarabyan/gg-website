@@ -1,0 +1,51 @@
+body{
+    background-image: url("assets/textures/play/background.png");
+    margin: 0;
+    background-size: cover;
+    font-family: Calibri, sans-serif;
+}
+
+.screenShot {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.storeDescription{
+    font-size: 14pt;
+    color: white;
+}
+
+.line{
+    width: auto;
+    height: 2px;
+    border-bottom: 1px solid;
+    border-color: #543f5f;
+}
+
+.store {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#appStoreButton {
+    border: none;
+    background: transparent url("assets/textures/play/appStore.png");
+    width: 312px;
+    height: 103px;
+    margin-top: 10px;
+}
+
+#googlePlayButton {
+    border: none;
+    background: transparent url("assets/textures/play/googlePlay.png");
+    width: 312px;
+    height: 103px;
+    margin-top: 10px;
+}
+
+
+.storeListing ul {
+    display: inline-flex;
+    list-style-type: none;
+}
