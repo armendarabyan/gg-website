@@ -1,14 +1,33 @@
 #logoWithNav {
     display: inline-flex;
-    flex-wrap: wrap;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+}
+
+.nav {
+    float: right;
 }
 
 .nav ul {
     list-style-type: none;
     display: inline-flex;
+    margin: 15px 0px 0px;
+    padding: 0px;
+    
 }
 
 .nav ul > li {
-    padding: 25px;
+    padding:0px;
+}
+
+.nav ul > li a {
+    color: #dfc7ff;
+    text-decoration: none;
+}
+
+.nav ul > li a.active {
+    color: #ecdf82;
+    text-decoration: none;
 }
